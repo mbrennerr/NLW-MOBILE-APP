@@ -24,6 +24,7 @@ export function Home() {
 				data={GAMES}
 				keyExtractor={(item) => item.id}
 				renderItem={({ item }) => <GameCard data={item} />}
+				horizontal
 			/>
 		</View>
 	);
